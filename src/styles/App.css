@@ -1,0 +1,37 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.grade-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.grade-details {
+  flex: 1;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

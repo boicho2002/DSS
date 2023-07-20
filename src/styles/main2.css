@@ -1,0 +1,94 @@
+*,
+::after,
+::before {
+  box-sizing: content-box;
+}
+.shkolo {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+#mainNavbar .nav-link {
+  color: #f2f2f2;
+  height: 100%;
+  margin-top: 5px;
+  padding: 0px 16px;
+
+  font-size: 21px;
+  display: flex;
+
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+#mainNavbar {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#mainNavbar .nav-link:hover {
+  color: aqua;
+  transition: all 0.5s ease-in-out;
+}
+#mainNavbar .navbar-brand {
+  color: white;
+  font-size: 1.5rem;
+}
+.navbar.scrolled {
+  background: rgb(0, 0, 0);
+  transition: background 500ms;
+}
+.nav-item {
+  padding: 10px 0 20px 0;
+  background: none;
+}
+
+/* .navbar-nav {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+} */
+.footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.grade-list {
+  background-color: lightgrey;
+  width: 50%;
+}
+
+.grade-details {
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  height: 22px;
+}
+.logo {
+  margin: 0px 0px 0px 15px;
+  font-size: 24px;
+  color: white;
+}
+main {
+  display: flex;
+  height: 88vh;
+}
+nav i {
+  margin-bottom: 1px;
+  padding-right: 10px;
+}

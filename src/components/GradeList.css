@@ -1,0 +1,36 @@
+.content-list {
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-x: scroll !important;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.id {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.deleteButton {
+  background-color: #ee1a1a;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.deleteButton:hover {
+  transition: 0.7s;
+}
